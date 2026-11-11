@@ -1,0 +1,8 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:skippdf="http://namespaces.senaite.org/skippdf">
+
+  <include file="meta.zcml" />
+  <skippdf:provideFeature />
+
+</configure>

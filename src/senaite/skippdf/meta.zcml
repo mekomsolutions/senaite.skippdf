@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:meta="http://namespaces.zope.org/meta">
+
+  <meta:directive
+      namespace="http://namespaces.senaite.org/skippdf"
+      name="provideFeature"
+      schema="zope.interface.Interface"
+      handler=".zcml.provide_skip_pdf_feature"
+      />
+
+</configure>
