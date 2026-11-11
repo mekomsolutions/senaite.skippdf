@@ -1,7 +1,0 @@
-# Exercise the ZCML feature mechanism on the older SENAITE/Plone stack.
-setuptools<81
-zope.configuration==4.4.1
-zope.component==4.6.2
-zope.security==5.8
-zope.publisher==6.1.0
-zope.proxy<5

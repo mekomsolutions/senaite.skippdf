@@ -1,4 +1,3 @@
 include LICENSE
 include README.rst
 recursive-include src *.zcml
-recursive-include tests *.py *.zcml *.txt

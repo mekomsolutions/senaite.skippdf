@@ -1,1 +1,1 @@
-"""Minimal SENAITE workflow override."""
+"""SENAITE Publish workflow override."""
