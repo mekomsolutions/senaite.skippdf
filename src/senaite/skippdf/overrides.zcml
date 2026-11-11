@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+  <adapter
+      zcml:condition="have senaite-skip-pdf"
+      name="workflow_action_publish"
+      for="*
+           zope.publisher.interfaces.browser.IBrowserRequest"
+      factory="bika.lims.browser.workflow.WorkflowActionGenericAdapter"
+      provides="bika.lims.interfaces.IWorkflowActionAdapter"
+      permission="zope.Public"
+      />
+
+</configure>
