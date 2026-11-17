@@ -1,0 +1,1 @@
+"""SENAITE Publish workflow override."""
