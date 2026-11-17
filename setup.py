@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name="senaite.skippdf",
-    version="1.0.0a1",
+    version="1.0.0",
     description="An add-on to customize SENAITE publish action",
     license="MPL-2.0",
     packages=find_packages("src"),
